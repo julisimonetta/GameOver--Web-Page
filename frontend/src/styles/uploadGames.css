@@ -1,0 +1,130 @@
+.form-style-9{
+	width: 850px;
+	background: #ffffffd2;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+	max-width: 90%;
+	margin: 2rem auto;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form-style-9 ul li{
+	display: flex;
+	margin-bottom: 10px;
+	min-height: 35px;
+    justify-content: center;
+    margin: 1rem;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	border-radius: 10px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #053148;
+	border:1px solid #1a75a5;
+}
+.form-style-9 ul li .field-split{
+	width: 90%;
+}
+.form-style-9 ul li .field-full{
+	width: 100%;
+}
+.form-style-9 ul li input.align-left{
+	/* float:left; */
+}
+.form-style-9 ul li input.align-right{
+	/* float:right; */
+}
+
+
+.form-style-9 ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+.inputContainer{
+	height: 100%;
+}
+.srcImg div{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.button-AdmForm {
+	border-radius: 20px;
+	border: 1px solid #28739E;
+	background-color: #28739E;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	margin-bottom: 1rem;
+	max-width: 50%;
+}
+.backgroundAdmForm{
+	height: 100%;
+  width: 100%;
+  gap: 2rem;
+  font-family: "Quicksand", sans-serif;
+  background:url(https://images3.alphacoders.com/115/1151011.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 482px) {
+	.form-style-9 ul li{
+		flex-direction: column;
+	}
+	.button-AdmForm{
+		max-width: 100%;
+	}
+}
+
+.upload-new-game-title{
+	font-weight: bold;
+	font-size: 1.5rem;
+}

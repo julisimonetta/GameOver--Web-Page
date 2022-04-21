@@ -1,0 +1,38 @@
+/* From cssbuttons.io by @adamgiebl */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,900&family=Source+Sans+Pro:wght@900&display=swap');
+
+
+.hero-button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #4a009e, #9000ff);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: 50%;
+    padding: 10px;
+    transition: 0.5s;
+   }
+   
+   .hero-button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 rgb(255, 0, 230);
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgba(255, 0, 230, 0.407);
+    }
+   }

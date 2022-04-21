@@ -1,0 +1,330 @@
+.on-sale-title{
+	width:46%;
+    margin-bottom: 2rem;
+}
+
+.onSaleContainer{
+    width: 100%;
+    min-height: 60vh;
+    /* position: relative; */
+}
+.onSaleCardsDisplay{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.onSaleCard{
+    background:linear-gradient(135deg, #FF57B9 0%,#A704FD 100%);
+    height: 55vh !important;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 2rem;
+}
+.cardImage{
+    height: 26vh;
+    width: 100%;
+}
+.cardImage img{
+    border-top-left-radius: 2rem;
+    object-fit: cover;
+}
+.cardInfo{
+    width: 100%;
+}
+.cardName{
+    height: 4vh !important;
+    font-size: 0.8rem;
+    margin: 0%;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.cardName h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem!important;
+    color: #ebebeb;
+}
+.cardPrice{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 3 !important;
+}
+.cardDiscount{
+    /* background-color: #78228F; */
+    background-color: #21a6e0;
+    color: white !important;
+    height: 14vh;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 1%;
+    width: 35%;
+    justify-content: center;
+}
+.cardDiscount h2{
+    transform: rotate(-90deg);
+    margin-top: 1.3rem !important;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.prices{
+    margin-top: 5%;
+    flex-direction: column;
+}
+.prices h3{
+    margin: 0%;
+    color: white;
+    font-size: 2rem !important;
+}
+.oldPrice{
+    text-decoration: line-through;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.675);
+    margin-top: 3% !important;
+    font-size: 1.8rem !important;
+}
+
+.cardbutton,
+.cardbutton::after {
+ padding: 16px 20px;
+ font-size: 18px;
+ background: linear-gradient(45deg, transparent 5%, white 5%);
+ border: 0;
+ color: #2d2d2d;
+ letter-spacing: 3px;
+ line-height: 1;
+ box-shadow: 6px 0px 0px #00e6f6;
+ outline: transparent;
+ position: relative;
+ width: 80%;
+ margin-top: 3%;
+ margin-left: 19%;
+}
+
+.cardbutton::after {
+ --slice-0: inset(50% 50% 50% 50%);
+ --slice-1: inset(80% -6px 0 0);
+ --slice-2: inset(50% -6px 30% 0);
+ --slice-3: inset(10% -6px 85% 0);
+ --slice-4: inset(40% -6px 43% 0);
+ --slice-5: inset(80% -6px 5% 0);
+ content: "ADD TO CART";
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #e51ef6 5%, #78228F 5%);
+ text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #e51ef6;
+ clip-path: var(--slice-0);
+}
+
+.cardbutton:hover::after {
+ animation: 1s glitch;
+ animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+ 0% {
+  clip-path: var(--slice-1);
+  transform: translate(-20px, -10px);
+ }
+
+ 10% {
+  clip-path: var(--slice-3);
+  transform: translate(10px, 10px);
+ }
+
+ 20% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 10px);
+ }
+
+ 30% {
+  clip-path: var(--slice-3);
+  transform: translate(0px, 5px);
+ }
+
+ 40% {
+  clip-path: var(--slice-2);
+  transform: translate(-5px, 0px);
+ }
+
+ 50% {
+  clip-path: var(--slice-3);
+  transform: translate(5px, 0px);
+ }
+
+ 60% {
+  clip-path: var(--slice-4);
+  transform: translate(5px, 10px);
+ }
+
+ 70% {
+  clip-path: var(--slice-2);
+  transform: translate(-10px, 10px);
+ }
+
+ 80% {
+  clip-path: var(--slice-5);
+  transform: translate(20px, -10px);
+ }
+
+ 90% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 0px);
+ }
+
+ 100% {
+  clip-path: var(--slice-1);
+  transform: translate(0);
+ }
+}
+
+
+
+
+@media (min-width:300px){
+    .onSaleCardsDisplay{
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .onSaleCard{
+        width: 18rem;
+        margin-bottom: 10%;
+        margin-left: 18%;
+    }
+    .cardName h1{
+        font-size: 1rem;
+    }
+    .cardDiscount{
+        margin-left: 5%;
+    }
+    .cardDiscount h2{
+        margin-top: 20% !important;
+        font-size: 2rem !important;
+    }
+    .oldPrice{
+        font-size: 1.5rem !important;
+        margin-bottom: 0% !important;
+    }
+    .prices h3{
+        font-size: 1.7rem !important;
+    }
+    .prices {
+        margin-top: 2% !important;
+    }
+    .cardName{
+        background-color: #77228fab;
+        height: 4vh;
+        font-size: 0.8rem;
+        margin: 0%;
+        color: white;
+        text-align: center;
+    }
+    .cardName h1{
+        margin: 0%;
+        background-color: #77228fab !important;
+        height: 4vh;
+        z-index: 3;
+    }
+    .cardImage img{
+        height: 26vh;
+        z-index: 0;
+    }
+    .cardbutton{
+        width: 80%;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:500px){
+    .onSaleCard{
+        margin-bottom: 7%;
+        margin-left: 22%;
+    }
+    .cardName{
+        font-size: 0.6rem;
+    }
+    .cardDiscount h2{
+        margin-top: 18% !important;
+        font-size: 1.5rem !important;
+    }
+    .oldPrice{
+        margin-top: 0% !important;
+    }
+    .prices {
+        margin-top: 2%;
+    }
+    .cardDiscount h2{
+        margin-top: 20%;
+        font-size: 2rem !important;
+    }
+}
+@media (min-width:600px){
+    .onSaleCardsDisplay{
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100% !important;
+        justify-content: space-evenly;
+    }
+    .onSaleCard{
+        margin-bottom: 8%;
+        margin-left: 0%;
+    }
+    .cardDiscount {
+        width: 25%;
+    }
+    .cardDiscount h2{
+        margin-top: 23% !important;
+    }
+    .cardbutton{
+        width: 80%;
+        font-size: 0.9rem;
+    }
+}
+@media (min-width:900px){
+    .onSaleCard{
+        margin-bottom: 5%;
+    }
+    .prices{
+        margin-top: 2%;
+    }
+    .cardDiscount h2{
+        margin-top: 18% !important;
+        font-size: 2rem !important;
+    }
+}
+@media (min-width:1000px){
+    .onSaleCard{
+        margin-bottom: 5%;
+    }
+}
+@media (min-width:1100px){
+    .onSaleCard{
+        margin-bottom: 2%;
+        margin-left: 0%;
+        height: 55vh !important;
+    }
+    .cardName h1{
+        font-size: 1.3rem;
+    }
+    .cardDiscount h2{
+        margin-top: 45% !important;
+        font-size: 2rem !important;
+    }
+    .oldPrice{
+        margin-top: 5%;
+        font-size: 1.8rem !important;
+    }
+    .prices h3{
+        font-size: 2rem !important;
+    }
+    .prices{
+        margin-top: 5% !important;
+    }
+}

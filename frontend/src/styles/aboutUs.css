@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@900&display=swap");
+
+.container_about{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4rem;
+    color: #F0EEEE;
+}
+.tittle_aboutus{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding: 1rem 6rem ;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    border-radius: 1em;
+    backdrop-filter: blur(20px);
+    margin: 1rem;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.181);
+
+
+}
+.tittle_aboutus h1{
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    color:#444FE9;
+    font-weight:bolder;
+}
+
+.gaming_info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     padding: 1rem 6rem ;
+     margin-top: 1rem;
+}
+.gaming_info h2{
+  padding-bottom: 2rem;
+}
+.gaming_box{
+    width: 30%;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    /* width: clamp(20rem, calc(20rem + 2vw), 22rem); */
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    border-radius: 1em;
+    backdrop-filter: blur(20px);
+    margin: 1rem;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.181);
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;  
+}
+
+.icons_about{
+    height: 4.5rem;
+    width: 5rem;
+    padding-right: 0.5rem;
+}
+.tittle_about{
+    height: 6rem;
+    width: 6rem; 
+}
+
+.div_partners{
+    align-items: center;
+    padding-top: 5rem;
+    max-width: 100%;
+    padding: 1rem 6rem ;
+}
+.images_partner{
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo_partner{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 20%;
+    height: 5rem;
+}
+.partners{
+    width: auto;
+    height: 100%;
+}
+.tittle_search{
+    color:rgb(68, 79, 233);
+}
+.tittle_customer{
+    color:rgb(68, 79, 233);
+}
+.tittle_more{
+    color: rgb(68, 79, 233);
+}
+
+.partners-text{
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #cbb9ff22;
+}
+.rotater {
+  height: 10vh;
+  padding: 5rem;
+   
+}
+h2 h5{
+    color: white;
+    font-size: 2.5rem;
+    display: none;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    
+}
+.selection-text{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-size: 1.2rem;
+}
+
+.presentation-text{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+@media (max-width:1100px){
+    .gaming_box{
+        width: 40%;
+        
+    }
+
+    .logo_partner {
+       
+        width: 25%;
+       
+    }
+    .rotater {
+        height: 16vh;
+        padding: 1rem;
+        margin-top: 1rem;
+         
+      }
+    
+ 
+}
+
+@media (max-width:900px){
+    .gaming_box{
+        width: 90%;
+        
+    }
+
+    .logo_partner {
+       
+        width: 30%;
+       
+    }
+
+    .rotater {
+        height: 16vh;
+        padding: 1rem;
+        margin-top: 1rem;
+         
+      }
+      h2 h5{
+          color: white;
+          font-size: 2.5rem;
+          display: none;
+          padding-left: 1rem;
+      }
+}
+@media (max-width:600px){
+    .gaming_box{
+        width: 100%;
+        padding: 0.3rem;
+        
+    }
+
+    .logo_partner {
+       
+        width: 50%;
+       
+    }
+    .icons_about {
+        height: 3.6rem;
+        width: 4rem;
+        padding-right: 0.5rem;
+    }
+    .gaming_info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+    }
+
+    .container_about {
+        
+        padding: 2rem 2rem;
+      
+    }
+    .div_partners {
+        padding: 1rem 1.2rem;
+    }
+    
+    .tittle_aboutus {
+      width: 90%;
+        padding: 1rem 3rem;
+       
+    }
+
+    .gaming_info {
+       
+        padding: 1rem 1rem;
+       
+    }
+    .rotater {
+        height: 16vh;
+        padding: 1rem;
+        margin-top: 1rem;
+         
+      }
+    
+}
+@media (max-width:700px){
+  
+    .div_partners {
+        align-items: center;
+        padding-top: 5rem;
+        max-width: 100%;
+        padding: 1rem 3rem;
+    }
+    
+}
+
+
+@media (max-width:300px){
+    .gaming_box{
+        width: 100%;
+        padding: 0.3rem;
+        
+    }
+
+    .logo_partner {
+       
+        width: 50%;
+       
+    }
+    .icons_about {
+        height: 3.6rem;
+        width: 4rem;
+        padding-right: 0.5rem;
+    }
+    .gaming_info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+    }
+
+    .container_about {
+        
+        padding: 1rem 1rem;
+      
+    }
+    .div_partners {
+        padding: 0.2rem 0.2rem;
+    }
+    
+    .tittle_aboutus {
+      width: 90%;
+        padding: 1rem 1rem;
+       
+    }
+
+    .gaming_info {
+       
+        padding: 1rem 1rem;
+       
+    }
+    
+}

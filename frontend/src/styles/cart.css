@@ -1,0 +1,302 @@
+.cart-container {
+  width: 100%;
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-container-child {
+  /*elcontainerblanco*/
+  display: flex;
+  justify-content: center;
+  background-color: #1e1d1d5d;
+  width: 90%;
+  min-height: 100%;
+  border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  -ms-border-radius: .4rem;
+  -o-border-radius: .4rem;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 1rem; */
+
+}
+.articles-container {
+  width: 80%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.articles-container-first {
+  width: 80%;
+  height: 100%;
+  min-height: 1rem;
+  margin: 2rem auto;
+}
+.summary-order {
+  /* background: linear-gradient(232deg, #5e64ff, #f8adff); */
+  background:linear-gradient(82deg, #e4a2ff, #ff00eb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-weight: bold;
+}
+.summary-order-p {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #657084;
+  text-align: left;
+  margin-top: 1rem;
+  color: #fff;
+
+}
+.articles-container-child {
+  /* el container grisasio que lleva los juegos con sus precios */
+  background-color: #fdfcfc;
+  border: 1px solid #dee0e3;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 100%;
+  min-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+}
+.delete-article {
+  align-self: center;
+  align-content: flex-end;
+  cursor: pointer;
+}
+.article-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
+}
+.name-price {
+  margin: auto 1rem;
+  width: auto;
+  align-self: center;
+  align-content: center;
+  margin-top: 1rem;
+  text-align: left;
+}
+.article-name {
+  color: #101727;
+  font-family: Helvetica;
+  font-weight: 600;
+  text-align: left;
+}
+.article-price {
+  font-weight: 800;
+  color: #101727;
+  flex-wrap: wrap;
+  text-align: left;
+  align-self: center;
+  align-content: center;
+}
+.article-img {
+  align-self: center;
+  align-content: center;
+  width: 10rem;
+  border: 1px solid #dee0e3;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.articles-container-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  min-height: 100%;
+}
+.articles-container-second-child {
+  width: 80%;
+  min-height: 1rem;
+  margin: 2rem auto;
+  margin-top: 0;
+}
+.article-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #f9fbfc;
+  border-radius: 10px;
+  border: 1px solid #dee0e3;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+.article-total h6 {
+  width: auto;
+  text-align: center;
+  align-self: center;
+  margin: auto 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #0f1827;
+}
+.image-name-price {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+.payment-method {
+  border: 1px solid #dee0e3;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  background-color: #fafbfd;
+  display: flex;
+  flex-direction: column;
+}
+.CreditCard-container {
+  width: 100%;
+  min-height: 1rem;
+  border-radius: 10px;
+  background-color: #b9b9b958;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: .5rem 0;
+}
+/* .CreditCard-container:hover {
+  border: 1px solid #dee0e3;
+} */
+.CreditCard-container p {
+  width: auto;
+  margin: 1rem;
+  font-size: small;
+}
+/* .CreditCard-container p:hover {
+  color: #0f1827;
+} */
+
+.CreditCard {
+  margin: .2rem;
+  border: 1px solid #dfe0e2;
+  color: #000000;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+  width:3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.CreditCard:hover {
+  color: #0f1827;
+  transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  -moz-transition: ease-in-out 0.3s;
+  -ms-transition: ease-in-out 0.3s;
+  -o-transition: ease-in-out 0.3s;
+  border: 1px solid #0f1827;
+}
+.Paypal{
+    width:3.5rem;
+    height: 3.5rem;
+    border: 1px solid #dfe0e2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+    margin: .2rem;
+}
+.Paypal:hover{
+    color: #0f1827;
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    border: 1px solid #0f1827;
+}
+.Paypal svg{
+    text-align: center;
+    width: 20px;
+    height: 16px;
+    color: #dfe0e2;
+}
+.paypal-button-xx {
+  border: none;
+  color: #fff;
+  background: linear-gradient(332deg, #6b70ff, #f8adff);
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.6em 1.5em;
+}
+
+.paypal-button-xx:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #f8adff;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+}
+
+.cart-empty{
+  /* background-color: red; */
+  height: 30vh;
+  width: 100%;
+  display: flex;
+}

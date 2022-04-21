@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46d6c933.css",
+    "main.js": "/static/js/main.1753e9f5.js",
+    "static/js/512.1f0835e6.chunk.js": "/static/js/512.1f0835e6.chunk.js",
+    "static/media/sonic.png": "/static/media/sonic.c1fb2af447029079117d.png",
+    "static/media/yoshi.png": "/static/media/yoshi.3e9567f8c230d3f30674.png",
+    "static/media/pikachu.png": "/static/media/pikachu.6c12926b4d83a86d1652.png",
+    "static/media/apex.png": "/static/media/apex.79bc8260a8cdcd0f0904.png",
+    "static/media/liukang.png": "/static/media/liukang.aca621afe661cf9be0ff.png",
+    "static/media/kirbyLogo.png": "/static/media/kirbyLogo.59a49f5d955ce6cf6ef0.png",
+    "static/media/marioLogo.png": "/static/media/marioLogo.76c779fffb0b5b0a1b56.png",
+    "static/media/pokemonLogo.png": "/static/media/pokemonLogo.165d31d0f6c9e9e00527.png",
+    "static/media/kirbyALT.png": "/static/media/kirbyALT.b89bd406671bc41892ba.png",
+    "static/media/sonicLogo.png": "/static/media/sonicLogo.ef638ad28386add7f042.png",
+    "static/media/MKLogo.png": "/static/media/MKLogo.0f7154b9f0f2876364a7.png",
+    "static/media/apexLogo.png": "/static/media/apexLogo.7c4201df0f565b454599.png",
+    "index.html": "/index.html",
+    "main.46d6c933.css.map": "/static/css/main.46d6c933.css.map",
+    "main.1753e9f5.js.map": "/static/js/main.1753e9f5.js.map",
+    "512.1f0835e6.chunk.js.map": "/static/js/512.1f0835e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46d6c933.css",
+    "static/js/main.1753e9f5.js"
+  ]
+}

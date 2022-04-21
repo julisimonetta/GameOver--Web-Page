@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://game-over-shop.herokuapp.com"

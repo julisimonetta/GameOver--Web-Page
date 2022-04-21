@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.render-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.container-cards, .home-container {
+  height: 100%;
+  width: 100%;
+  gap: 2rem;
+  
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titleGame{
+  margin-top: 2rem;
+  font-family: "Quicksand", sans-serif;
+}
+.card__image {
+  object-fit: cover;
+}
+
+.card__gamestab {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  border-radius: 1em;
+  backdrop-filter: blur(20px);
+  margin: 1rem;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.card__header{
+    filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.356));
+    -webkit-filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.356));
+}
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  color: #fff;
+}
+.tag-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: 0.9rem;
+  width: auto;
+  background: #cb2d3e;
+  background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+    color: #fafafa;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.card__footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: auto;
+  color: #fff;
+}
+/* BUTTON */
+.vm {
+  width: 150px;
+  border: none;
+  border-radius: 2rem;
+  background: linear-gradient(#4faefc17,#006aff1c);
+  color: #fff;
+  font-size: 17px;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: .8rem .8rem;
+  backdrop-filter: blur(2rem);
+  border: 1px solid rgba(255, 255, 255, 0.151);
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: .8rem;
+  text-shadow: #fafafab0 0px -1px 3px;
+  margin: auto;
+  letter-spacing: 0.2rem;
+
+ }
+ .vm:hover{
+  text-shadow: #fafafab0 0px -1px 5px;
+ }
+.search-filter{
+  height: 20rem;
+}
+.search-games{
+  height:2rem;
+  width:1rem;
+}
+
+.delete-game-icon{
+	color:blue
+}
+
+.delete-game-icon:hover{
+	color:violet;
+	cursor:pointer;
+}
+
+.search-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.search-icon{
+	width:2rem;
+	height:2rem;
+}
+
+.search-input{
+	width:20rem;
+	color: white;
+	height: 3rem;
+	outline: none;
+	overflow: hidden;
+	box-shadow: 0 0 1em 0 rgb(0 0 0 / 20%);
+	border-radius: 1em;
+	backdrop-filter: blur(20px);
+	margin: 2rem 0;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-ms-border-radius: 1em;
+	-o-border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.2);
+	font-family: "Quicksand", sans-serif;
+  border: none;
+  transition: .5s;
+}
+
+.search-input:hover {
+  background-color: #77336585;
+}
+
+.search-input:focus {
+  background-color: #77336585;
+}
+
+.search-input::placeholder {
+  color: white;
+}
+
+.select-container{
+	width:15rem;
+  margin: 3rem 5rem;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////// CARRITO ESQUINA SUPERIOR DERECHA///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.cartAnchorContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 88;
+  width: 100%;
+  text-align: right;
+  cursor:pointer;
+}
+.cartAnchorContainer2 {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  z-index:87;
+  width: 100%;
+  text-align: right;
+  
+}
+.containerCartGame {
+  background: linear-gradient(0deg, rgb(16, 99, 0) 0%, rgb(0, 203, 17) 100%);
+  box-shadow: 10px 5px 38px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 5px 38px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 5px 38px 0px rgba(0,0,0,0.75);
+  width: 80px;
+  height:40px;
+  border-radius: 5px;
+  position: absolute;
+  transition: all 5s 5s ease;
+}
+.containerCartGame2 {
+  background: linear-gradient(135deg, rgba(255,87,185,1) 0%, rgba(167,4,253,1) 100%);
+  box-shadow: 10px 5px 38px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 5px 38px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 5px 38px 0px rgba(0,0,0,0.75);
+  display: flex;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 99;
+}
+
+.priceCardGame {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.iconGameCard {
+  margin-top: 10px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  cursor: pointer;
+  color:white;
+  transform: scale(1.3, 1.3);
+}
+
+.linkCart {
+  cursor:pointer;
+}
+
+.containerCartGame:hover {
+  opacity: 0;
+}
+
+.containerCartGame {
+  opacity: 1;
+  transition:all 0.3s;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.containerCartGame:hover .priceCardGame {
+  /* display: none; */
+  opacity: 0;
+}
+
+.containerCartGame .priceCardGame {
+  display: flex;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 786px) {
+  .search-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .search-container select{
+    margin-bottom: 2rem;
+  }
+}
+
+
+/* <select> styles */
+.select-container {
+  /* Reset */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20em;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, -webkit-gradient(linear, right top, left top, color-stop(3em, rgba(255, 255, 255, 0.3)), color-stop(3em, rgba(255, 255, 255, 0.2)));
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+  color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* <option> colors */
+  /* Remove focus outline */
+  /* Remove IE arrow */
+  transition: .5s;
+  backdrop-filter: blur(20px);
+}
+
+.select-container option {
+  color: inherit;
+  background-color: #833d8f;
+
+}
+.select-container:hover {
+  background-color: #55003f85;
+}
+
+.select-container:focus {
+  outline: none;
+  transition: 0.5s;
+}
+
+.select-container::-ms-expand {
+  display: none;
+}
+
+

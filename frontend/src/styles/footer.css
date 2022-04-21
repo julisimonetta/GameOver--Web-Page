@@ -1,0 +1,206 @@
+footer{
+  background: #1b0a25d4!important;
+}
+.iconsocials {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.iconsocial{
+  text-align: initial;
+}
+.iconsocial svg{
+ margin:auto .3rem;
+ text-decoration: none!important;
+}
+.iconsocials a{
+  color: #fff!important;
+}
+.iconsocials svg{
+color: #fff!important;
+}
+.text-reset {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+a:hover {
+  color: #dd7cff !important;
+}
+a{
+  text-decoration: none;
+}
+.logofooter {
+  height: 8rem;
+  width: 8rem;
+}
+.random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.iconsfooter {
+  height: 1.4rem;
+  width: 1.4rem;
+  margin-right: 0.5rem;
+}
+.iconsocial a{
+  text-decoration: none!important;
+}
+.pad-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: auto;
+}
+
+.probar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hfooter {
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #14041f6e;
+}
+
+.height-container-footer{
+  min-height: 17rem;
+}
+
+
+
+.font-footer-x {
+  display: flex;
+}
+/* .font-footer-x p {
+  text-align:start;
+  margin-left:1rem;
+} */
+.alignItemsFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.alignItemsFooter h6{
+  text-align: start;
+}
+.font-footer-x p {
+  width:auto;
+}
+
+.alignContentTitle{
+  font-family:  "Quicksand", sans-serif;
+}
+.pages-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contactFooter {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 992px) {
+  .logofooter {
+    height: 12rem;
+    width: 12rem;
+  }
+  .logofooter {
+    height: 11rem;
+    width: 11rem;
+    margin-bottom: 2rem;
+  }
+
+  .probar {
+    flex-direction: row;
+  }
+  .iconsocial {
+    text-align: center;
+
+    width: 100%;
+  }
+  p {
+    font-size: 0.9rem;
+    padding-bottom: 0.1rem !important;
+  }
+  h6 {
+    font-size: 1.2rem !important;
+    justify-content: center!important;
+
+  }
+  a {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logofooter {
+    height: 11rem;
+    width: 11rem;
+    margin-bottom: 2rem;
+  }
+  .probar {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .iconsocial {
+    text-align: center;
+    width: 50%;
+  }
+  p {
+    font-size: 0.9rem;
+    padding-bottom: 0.1rem !important;
+  }
+  h6 {
+    font-size: 1.2rem !important;
+    justify-content: center!important;
+  }
+  a {
+    font-size: 0.9rem;
+  }
+  
+  .alignItemsFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .alignItemsFooter h6{
+    text-align: center;
+  }
+  .font-footer-x {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    width: 25%;
+  }
+  .font-footer-x p {
+    text-align: center;
+  }
+   .alignContentTitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .alignContentTitle p{
+    width: auto;
+  }
+  .pages-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .contactFooter {
+    display: flex;
+    flex-direction: column;
+  }
+  .pages-contact h6{
+    text-align: center;
+  }
+}

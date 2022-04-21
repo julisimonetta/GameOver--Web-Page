@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.error_container{
+    font-family: 'Rubik Glitch', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(https://fondosmil.com/fondo/1137.jpg);
+    color: white;
+  }
+  .error_container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+  }
+  .error_container h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .image_error{
+    width: 50vw;
+    margin-top: 10;
+  }
+
+  @media screen and (max-width: 768px) {
+  .error_container h2 {
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+  }
+  .error_container h1 {
+    font-size: 3.8rem;
+    margin-top: 1.2rem;
+    
+  }
+  }

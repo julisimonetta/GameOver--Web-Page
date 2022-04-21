@@ -1,0 +1,71 @@
+.basketContainer{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.basketText{
+    background-color:#290353db;
+    color:white;
+    padding: 1rem;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.backToGameBasketButton {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 30%;
+    max-width: 60%;
+    width: 8rem;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #fff;
+    background: #d04cd7;
+  
+    padding: 1px;
+   }
+   
+   .backToGameBasketButton:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    background-color: rgba(123, 220, 255, 0.823);
+    height: 150px;
+    width: 300px;
+    border-radius: 50%;
+   }
+   
+   .backToGameBasketButton:hover {
+    color: #fff;
+   }
+   
+   .backToGameBasketButton:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .backToGameBasketButton:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .backToGameBasketButton:active:before {
+    background: #d04cd7;
+    transition: background 0s;
+   }

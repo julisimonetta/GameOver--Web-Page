@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* width: 100%;
+  min-height: .1rem; */
+}
+
+.App{
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.loadingContainer{
+  height: 65vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.loadingImg{
+  margin-right: 20% !important;
+  background-color: red !important;
+}
+PacmanLoader{
+  background-color: red !important;
+}
+.swal2-toast{
+  overflow: hidden;
+}
+#root{
+  /* z-index: 2; */
+  background-image: url(https://user-images.githubusercontent.com/91817152/163213332-abb446f0-0a2a-4484-b57c-a188df1d6c55.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  /* background-color: #00ffff; */
+  background:linear-gradient( 42deg, #430495, #6f00ff)!important;
+
+
+  border-radius: 10px;
+}
+
+.App > div:first-child:not(.loadingContainer){
+  background:linear-gradient( 82deg, #ff00eb, #00ffff)!important;
+  padding: .25rem!important;
+  border-bottom-right-radius: 60px;
+  background-image: url();
+  box-shadow: 4px 2px 5px 1px rgba(0, 0, 0, 0.8);
+  z-index: 999!important;
+}
+
+.styles_scroll-to-top__2A70v{
+color: #84ffff !important;
+backdrop-filter: blur(20px) !important;
+background-color: #ffffff49 !important;
+right: 40px !important;
+bottom: 40px !important;
+position: fixed !important;
+z-index: 2 !important;
+cursor: pointer !important;
+border-radius: 50% !important;
+width: 55px !important;
+height: 55px !important;
+transition: opacity 1s ease-in-out !important;
+box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28) !important;
+border: none !important;
+outline: none !important;
+}
+
+.styles_scroll-to-top__2A70v:active {
+  transform: matrix(0.95, 0, 0, 0.95, 0, 0);;
+
+}
+
+.pacman{
+  color: red;
+}
+
+.css-y4mhoa {
+  position: relative!important;
+  font-size: 0!important;
+  height: 100px!important;
+  width: 100px!important;
+  overflow: hidden!important;
+}
+.css-3ahyn6 {
+  width: 0!important;
+  height: 0!important;
+  border-right: 100px solid transparent!important;
+  border-top: 100px solid transparent!important;
+  border-left: 100px solid #fdcf00!important;
+  border-bottom: 100px solid #fdcf00!important;
+  border-radius: 100px!important;
+  position: absolute!important;
+  -webkit-animation: animation-wzdm5f 1s infinite ease-in-out!important;
+  animation: animation-wzdm5f 1s infinite ease-in-out!important;
+  -webkit-animation-fill-mode: both!important;
+  animation-fill-mode: both!important;
+  z-index: 5;
+}
+
+.css-1hanomx {
+  width: 0!important;
+  height: 0!important;
+  border-right: 100px solid transparent!important;
+  border-top: 100px solid #fdcf00!important;
+  border-left: 100px solid #fdcf00!important;
+  border-bottom: 100px solid transparent!important;
+  border-radius: 100px!important;
+  border-style:outset !important;
+  position: absolute!important;
+  -webkit-animation: animation-d8o0te 1s infinite ease-in-out!important;
+  animation: animation-d8o0te 1s infinite ease-in-out!important;
+  -webkit-animation-fill-mode: both!important;
+  animation-fill-mode: both!important;
+  z-index: 6;
+}
+.css-gnfp0r{
+  width: 33.333333333333336px!important;
+  height: 33.333333333333336px!important;
+  background-color: #00ffff!important;
+  margin: 2px!important;
+  border-radius: 100%!important;
+  -webkit-transform: translate(0, -35px)!important;
+  -moz-transform: translate(0, -35px)!important;
+  -ms-transform: translate(0, -35px)!important;
+  transform: translate(0, -25px)!important;
+  position: absolute!important;
+  top: 100px!important;
+  left: 500px!important;
+  -webkit-animation: animation-1x9icxu 1s 0.75s infinite linear!important;
+  animation: animation-1x9icxu 1s 0.75s infinite linear!important;
+  -webkit-animation-fill-mode: both!important;
+  animation-fill-mode: both!important;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5)!important;
+
+}
+
+.css-4qu85p{
+  width: 33.333333333333336px!important;
+  height: 33.333333333333336px!important;
+  background-color: #ff00eb!important;
+
+  margin: 2px!important;
+  border-radius: 100%!important;
+  -webkit-transform: translate(0, -25px)!important;
+  -moz-transform: translate(0, -25px)!important;
+  -ms-transform: translate(0, -25px)!important;
+  transform: translate(0, -25px)!important;
+  position: absolute!important;
+  top: 100px!important;
+  left: 500px!important;
+  -webkit-animation: animation-1x9icxu 1s 1s infinite linear!important;
+  animation: animation-1x9icxu 1s 1s infinite linear!important;
+  -webkit-animation-fill-mode: both!important;
+  animation-fill-mode: both!important;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5)!important;
+
+}
+.css-174d34y{
+  width: 33.333333333333336px!important;
+  height: 33.333333333333336px!important;
+  background-color: #6f00ff !important;
+  margin: 2px!important;
+  border-radius: 100%!important;
+  -webkit-transform: translate(0, -25px)!important;
+  -moz-transform: translate(0, -25px)!important;
+  -ms-transform: translate(0, -25px)!important;
+  transform: translate(0, -25px);
+  position: absolute!important;
+  top: 100px!important;
+  left: 500px!important;
+  -webkit-animation: animation-1x9icxu 1s 1.25s infinite linear!important;
+  animation: animation-1x9icxu 1s 1.25s infinite linear!important;
+  -webkit-animation-fill-mode: both!important;
+  animation-fill-mode: both!important;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5)!important;
+
+}
+.css-16unfty{
+  width: 33.333333333333336px!important;
+  height: 33.333333333333336px!important;
+  background-color: #430495!important;
+  margin: 2px!important;
+  border-radius: 100%!important;
+  -webkit-transform: translate(0, -25px)!important;
+  -moz-transform: translate(0, -25px)!important;
+  -ms-transform: translate(0, -25px)!important;
+  transform: translate(0, -25px)!important;
+  position: absolute!important;
+  top: 100px!important;
+  left: 500px!important;
+  -webkit-animation: animation-1x9icxu 1s 1.50s infinite linear!important;
+  animation: animation-1x9icxu 1s 1.50s infinite linear!important;
+  -webkit-animation-fill-mode: both!important;
+  animation-fill-mode: both!important;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5)!important;
+
+}
